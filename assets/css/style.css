@@ -1,3 +1,10 @@
+.photoP {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  position: flex;
+}
+
 header {
   background-color: lightgreen;
 }
