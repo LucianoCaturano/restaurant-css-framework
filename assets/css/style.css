@@ -1,3 +1,21 @@
+.pagiC {
+  background-color: #0f0f0f;
+  color: #fac204;
+  font-size: 20px;
+  border: 1px solid #fac204;
+  margin: 5px;
+  padding: 5px;
+}
+
+a {
+  color: #fac204;
+}
+
+a:hover {
+  background-color: #fac204;
+  color: black;
+}
+
 .Hor {
   border-left-style: solid;
   border-color: #fac204;
@@ -33,6 +51,9 @@ body {
 }
 
 .photoP {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 350px;
   height: 350px;
   margin: 10px;
