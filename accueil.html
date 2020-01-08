@@ -1,7 +1,5 @@
-<html>
-
-
-
+<!doctype html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/css/fonts.css" rel="stylesheet" type="text/css">
-    <title>photos</title>
+    <title>Accueil</title>
 </head>
 
 <body>
@@ -31,38 +29,31 @@
                 <!--!Nom de la sidebar -->
             </button>
         </div>
-
-        <h1 class="titre-principale"><img src="./assets/images/logo.png" alt="logo"></h1>
+        <div class="jumbotron">
+            <h1 class="display-4">Pass'ta Night</h1>
+            <p class="lead">Tu vas kiffer tes pastas !!!</p>
+            <hr class="my-4">
+            <p class="lead">Les News</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#one" role="button">Grande Ouverture</a>
+                <a class="btn btn-primary btn-lg " href="#two" role="button">Promo du mois</a>
+                <a class="btn btn-primary btn-lg" href="#three" role="button">Concours</a>
+            </p>
+        </div>
     </header>
-
     <main>
-
-        <h2 class="titre-secondaire">Photos</h2>
         <div class="container">
-            <div class="row ">
-                <div class="col-12 col-md-4"> <img class="nopad photoP ligne" src="assets/images/img1.jpg" /> </div>
+            <div class="row">
+                <div id="one" class="one col-12 col-md-4"> <img class="photoP" src="assets/images/sign-1209759_1280.jpg"/> <p>Pass'ta Night ouvre aujourd'hui à Paris et Namur ! Plus d'excuse pour déguster de délicieuses pâtes le soir ou la nuit quand t'as oublié de faire la cuisine! </p></div>
 
-                <div class="col-12 col-md-4"> <img class="nopad photoP ligne" src="assets/images/img2.jpeg" /> </div>
+                <div id="two" class="two col-12 col-md-4"> <img class="photoP" src="assets/images/special-offer-606691_1280.png"/> <p>La Super Promo du mois, une pasta box achetée, une autre gratuite!!!</p> </div>
 
-                <div class="col-12 col-md-4"> <img class="nopad photoP ligne" src="assets/images/img3.png" /> </div>
+                <div id="three" class="three col-12 col-md-4"> <img class="photoP" src="assets/images/cup-1615074_1280.png"/><p>Fais partie des 3 premiers à liker notre page Facebook pour gagner un an de pasta box!!!</p></div>
             </div>
         </div>
-
-        <nav aria-label="Page navigation example ">
-            <ul class="pagination justify-content-center">
-
-                <li class="page-item"><a class="pagiC" href="photos.html">1</a></li>
-                <li class="page-item"><a class="pagiC" href="page2.html">2</a></li>
-                <li class="page-item"><a class="pagiC" href="page3.html">3</a></li>
-                <li class="page-item"><a class="pagiC" href="page4.html">4</a></li>
-
-            </ul>
-        </nav>
-
     </main>
-
     <footer>
-        <div class="container ligne">
+        <div class="container">
 
             <!--RESEAU SOCIAUX-->
             <div class="row">
@@ -72,13 +63,13 @@
             </div>
         </div>
 
-        <div class="container genfoot ligne">
+        <div class="container genfoot">
             <!--    HORAIRE ET NAVIGATION DU SITE-->
-            <div class="row ">
+            <div class="row">
                 <div class="col-6">
                     <p>Horaire</p>
                 </div>
-                <div class="col-6 Hor"> Menu</div>
+                <div class="col-6"> Menu</div>
 
                 <!---->
                 <div class="col-3">
@@ -88,7 +79,7 @@
                 <div class="col-3 ">
                     <p>20h-7h</p>
                 </div>
-                <div class="col-6 Hor"><a href="index.html">Accueil</a></div>
+                <div class="col-6"><a href="index.html">Accueil</a></div>
 
                 <!---->
 
@@ -99,7 +90,7 @@
                 <div class="col-3 ">
                     <p>20h-7h</p>
                 </div>
-                <div class="col-6 Hor"><a href="carte.html">Carte</a></div>
+                <div class="col-6"><a href="carte.html">Carte</a></div>
 
                 <!---->
 
@@ -110,7 +101,7 @@
                 <div class="col-3 ">
                     <p>20h-7h</p>
                 </div>
-                <div class="col-6 Hor"><a href="photos.html">Photos</a></div>
+                <div class="col-6"><a href="photos.html">Photo</a></div>
                 <!---->
 
                 <div class="col-3">
@@ -120,7 +111,7 @@
                 <div class="col-3 ">
                     <p>20h-7h</p>
                 </div>
-                <div class="col-6 Hor"><a href="restaurants.html">Restaurants</a></div>
+                <div class="col-6"><a href="restaurants.html">Restaurants</a></div>
                 <!---->
 
                 <div class="col-3">
@@ -130,7 +121,7 @@
                 <div class="col-3 ">
                     <p>18h-9h</p>
                 </div>
-                <div class="col-6 Hor"><a href="contact.html">Contact</a></div>
+                <div class="col-6"><a href="contact.html">Contact</a></div>
                 <!---->
 
                 <div class="col-3">
@@ -154,7 +145,6 @@
             </div>
         </div>
     </footer>
-
     <script>
         /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
         function openNav() {
@@ -168,8 +158,9 @@
             document.getElementById("main").style.marginLeft = "0";
         }
     </script>
-    <script src="https://kit.fontawesome.com/78a2209bfa.js" crossorigin="anonymous"></script>
-</body>
 
+    <script src="https://kit.fontawesome.com/78a2209bfa.js" crossorigin="anonymous"></script>
+
+</body>
 
 </html>
