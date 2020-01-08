@@ -16,7 +16,7 @@ body {
 
 .titre-principale {
   margin-left: 100px;
-  position: relative;
+  margin-top: -60px;
 }
 
 .image-resto {
@@ -25,7 +25,8 @@ body {
 }
 
 .titre-restaurants {
-  padding-left: 20px;
+  margin-left: 25px;
+  padding: 20px;
 }
 
 .restoadresse {
