@@ -1,9 +1,15 @@
 body {
     font-family: 'Muli', sans-serif;
+    color: rgb(255, 255, 67);
+    background-color: rgb(15, 15, 15);
 }
 .image-resto {
     width: 275px;
     height: auto;
+}
+
+.titre-restaurants {
+    padding-left: 20px;
 }
 
 .restoadresse {
@@ -19,15 +25,14 @@ body {
 }
 
 header {
-    background-color: lightgreen;
+    
 }
 
 main {
- 
+
 }
 
 footer {
-    background-color: red;
 }
 
 
@@ -59,14 +64,14 @@ footer {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: rgb(255, 255, 67);
     display: block;
     transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: rgb(255, 255, 67);
 }
 
 /* Position and style the close button (top right corner) */
@@ -82,8 +87,8 @@ footer {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
-    color: white;
+    background-color: yellow;
+    color: black;
     padding: 10px 15px;
     border: none;
 }
