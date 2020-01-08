@@ -14,6 +14,7 @@ Minimum 5 pages accessible by a navigation bar (navbar) present on all pages and
 ## When did you work on it?
 
 Duration : 3 days
+
 Deadline: January 9, 2020, 5:00 p.m.
 
 ## languages ​​used?
@@ -38,5 +39,7 @@ Deadline: January 9, 2020, 5:00 p.m.
 ## Mockup
 
 ![Mockup](./assets/images/mockup.png)
+
+## Place of realization
 
 ![Becode](./assets/images/becode.png)
