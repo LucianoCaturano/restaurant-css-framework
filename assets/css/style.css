@@ -1,3 +1,12 @@
+.carteM {
+  border: 1px dotted yellow;
+}
+
+.needSpace {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .pagiC {
   background-color: #0f0f0f;
   color: #fac204;
