@@ -36,6 +36,6 @@ Deadline: January 9, 2020, 5:00 p.m.
 
 ## Mockup
 
-![Mockup](./assets/images/mockup)
+![Mockup](./assets/images/mockup.png)
 
 ![Becode](./assets/images/becode.png)
