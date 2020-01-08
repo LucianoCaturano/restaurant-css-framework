@@ -1,158 +1,157 @@
-.carteM{
-    border:1px dotted yellow;
- }
+.carteM {
+    border: 1px dotted yellow;
+}
 
- .needSpace{
-     margin-top: 15px;
-     margin-bottom:15px;
- }
- 
- 
- .pagiC{
-     background-color: rgb(15, 15, 15);
-     color: #fac204;
-     font-size: 20px;
-     border:1px solid #fac204;
-     margin:5px;
-     padding:5px;
- }
- 
- .nopad {
-     padding: 0;
- }
- 
- a{
-     color:#fac204;
- }
- 
- a:hover{
-     background-color: #fac204;
-     color:black;
- }
- 
- 
- $coran: #fac204;
- 
- .Hor {
-     border-left-style: solid;
-     border-color: #fac204;
- }
- 
- .little-logo {
-     font-size: 50px;
- }
- 
- body {
-     font-family: 'Muli', sans-serif;
-     
-     color: #fac204;
-     background-color: rgb(15, 15, 15);
- }
- 
- .titre-principale {
-     margin-left: 100px;
-     margin-top: -60px;
- }
- 
- .image-resto {
-     width: 275px;
-     height: auto;
- }
- 
- .titre-secondaire {
-     margin-left: 25px;
-     padding: 20px;
- }
- 
- .restoadresse {
-     text-align: center;
- }
- 
- .photoP {
-     justify-content: center;
-     width: 350px;
-     height: 350px;
-     margin: 10px;
-     position: flex;
- }
- 
- 
- 
- /* The sidebar menu */
- .sidebar {
-     height: 100%;
-     /* 100% Full-height */
-     width: 0;
-     /* 0 width - change this with JavaScript */
-     position: fixed;
-     /* Stay in place */
-     z-index: 1;
-     /* Stay on top */
-     top: 0;
-     left: 0;
-     background-color: #111;
-     /* Black*/
-     overflow-x: hidden;
-     /* Disable horizontal scroll */
-     padding-top: 60px;
-     /* Place content 60px from the top */
-     transition: 0.5s;
-     /* 0.5 second transition effect to slide in the sidebar */
- }
- 
- /* The sidebar links */
- .sidebar a {
-     padding: 8px 8px 8px 32px;
-     text-decoration: none;
-     font-size: 25px;
-     color: $coran;
-     display: block;
-     transition: 0.3s;
- }
- 
- /* When you mouse over the navigation links, change their color */
- .sidebar a:hover {
-     color: rgb(15, 15, 15);
- 
- }
- 
- /* Position and style the close button (top right corner) */
- .sidebar .closebtn {
-     position: absolute;
-     top: 0;
-     right: 25px;
-     font-size: 36px;
-     margin-left: 50px;
- }
- 
- /* The button used to open the sidebar */
- .openbtn {
-     font-size: 20px;
-     cursor: pointer;
-     background-color: $coran;
-     color: rgb(15, 15, 15);
-     padding: 10px 15px;
-     border: none;
- }
- 
- .openbtn:hover {
-     background-color: #444;
- }
- 
- /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
- #main {
-     transition: margin-left .5s;
-     /* If you want a transition effect */
-     padding: 20px;
- }
- 
- /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
- @media screen and (max-height: 450px) {
-     .sidebar {
-         padding-top: 15px;
-     }
- 
-     .sidebar a {
-         font-size: 18px;
-     }
- }
+.needSpace {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.pagiC {
+    background-color: rgb(15, 15, 15);
+    color: #fac204;
+    font-size: 20px;
+    border: 1px solid #fac204;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nopad {
+    padding: 0;
+}
+
+a {
+    color: #fac204;
+}
+
+a:hover {
+    background-color: #fac204;
+    color: black;
+}
+
+
+$coran: #fac204;
+
+.Hor {
+    border-left-style: solid;
+    border-color: #fac204;
+}
+
+.little-logo {
+    font-size: 50px;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    color: #fac204;
+    background-color: rgb(15, 15, 15);
+}
+
+.titre-principale {
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.image-resto {
+    width: 275px;
+    height: auto;
+}
+
+.titre-secondaire {
+    margin-left: 25px;
+    padding: 20px;
+}
+
+.restoadresse {
+    text-align: center;
+}
+
+.photoP {
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    position: flex;
+}
+
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: $coran;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: rgb(15, 15, 15);
+
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: $coran;
+    color: rgb(15, 15, 15);
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    /* If you want a transition effect */
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
