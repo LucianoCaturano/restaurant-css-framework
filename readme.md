@@ -25,8 +25,8 @@ Deadline: January 9, 2020, 5:00 p.m.
 
 ## Composition of the site
 
-|                            |       Page        |   Jumbotron  |   Badges    | Font Awesome | Pagination | 
-| :------------------------  | :---------------: | :------------:  :--------: | :----------: |  -------:  |
+|         Intitulé           |       Page        |   Jumbotron  |   Badges    | Font Awesome | Pagination | 
+| :------------------------  | :---------------: | :-----------:| :--------: | :----------: |  -------:  |
 | Accueil                    |        ✔️          |       ✔️      |             |       ✔️      |            |       
 | Carte                      |        ✔️          |              |      ✔️      |       ✔️      |            |        
 | Photos                     |        ✔️          |              |             |       ✔️      |      ✔️     |      
