@@ -42,6 +42,7 @@ body {
   font-family: 'Muli', sans-serif;
   color: #fac204;
   background-color: #0f0f0f;
+  overflow-x: hidden;
 }
 
 .titre-principale {
