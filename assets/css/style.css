@@ -1,3 +1,13 @@
+.ligne {
+  border: 2px solid #ffff43;
+  background-color: #0f0f0f;
+}
+
+.Hor {
+  border-left-style: solid;
+  border-color: #ffff43;
+}
+
 body {
   font-family: 'Muli', sans-serif;
   color: #ffff43;
