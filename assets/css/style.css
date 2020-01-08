@@ -4,6 +4,11 @@ body {
   background-color: #0f0f0f;
 }
 
+.titre-principale {
+  margin-left: 100px;
+  position: relative;
+}
+
 .image-resto {
   width: 275px;
   height: auto;
@@ -76,8 +81,8 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: yellow;
-  color: black;
+  background-color: #ffff43;
+  color: #0f0f0f;
   padding: 10px 15px;
   border: none;
 }
