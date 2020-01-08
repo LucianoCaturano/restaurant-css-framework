@@ -1,18 +1,16 @@
-.ligne{
-    
-    border:2px solid rgb(255, 255, 67);
-    background-color: rgb(15, 15, 15);
-}
+$coran: #fac204;
 
 .Hor{
     border-left-style: solid ;
-    border-color: rgb(255, 255, 67);
+    border-color: $coran;
 
+.little-logo {
+    font-size: 50px;
 }
-
 body {
     font-family: 'Muli', sans-serif;
-    color: rgb(255, 255, 67);
+    // color: rgb(255, 255, 67);
+    color: $coran;
     background-color: rgb(15, 15, 15);
 }
 
@@ -72,14 +70,14 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: rgb(255, 255, 67);
+    color: $coran;
     display: block;
     transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-    color: rgb(255, 255, 67);
+    color: $coran;
 }
 
 /* Position and style the close button (top right corner) */
@@ -95,7 +93,7 @@ body {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(255, 255, 67);
+    background-color: $coran;
     color: rgb(15, 15, 15);
     padding: 10px 15px;
     border: none;
@@ -122,4 +120,3 @@ body {
         font-size: 18px;
     }
 }
-
