@@ -42,11 +42,12 @@ a:hover {
   font-size: 50px;
 }
 
-body {
+body, html {
   font-family: 'Muli', sans-serif;
   color: #fac204;
   background-color: #0f0f0f;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .titre-principale {
@@ -78,8 +79,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
   margin: 10px;
   position: flex;
 }
