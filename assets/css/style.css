@@ -78,6 +78,22 @@ body {
   position: flex;
 }
 
+.colormenu {
+  color: #ff653e;
+}
+
+.colorface {
+  color: #1d1dff;
+}
+
+.colortwit {
+  color: #32a3ff;
+}
+
+.colorinsta {
+  color: #ff49e1;
+}
+
 /* The sidebar menu */
 .sidebar {
   height: 100%;
