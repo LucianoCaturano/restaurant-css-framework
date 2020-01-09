@@ -46,11 +46,12 @@ $coran: #fac204;
     font-size: 50px;
 }
 
-body {
+body, html {
     font-family: 'Muli', sans-serif;
     color: #fac204;
     background-color: rgb(15, 15, 15);
     overflow-x: hidden;
+    width: 100%;
 }
 
 .titre-principale {
@@ -80,8 +81,8 @@ body {
 
 .photoP {
     justify-content: center;
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     margin: 10px;
     position: flex;
 }
@@ -103,6 +104,9 @@ body {
     color: rgb(255, 73, 225);
 }
 
+.aaa {
+
+}
 
 /* The sidebar menu */
 .sidebar {
