@@ -60,6 +60,7 @@ body {
 }
 
 .titre-secondaire {
+  font-weight: 700;
   text-decoration: underline;
   margin-left: 25px;
   padding: 20px;
@@ -81,18 +82,22 @@ body {
 
 .colormenu {
   color: #ff653e;
+  font-weight: 800;
 }
 
 .colorface {
   color: #1d1dff;
+  font-size: 75px;
 }
 
 .colortwit {
   color: #32a3ff;
+  font-size: 75px;
 }
 
 .colorinsta {
   color: #ff49e1;
+  font-size: 75px;
 }
 
 /* The sidebar menu */
@@ -178,6 +183,9 @@ body {
 @media screen and (min-width: 1023px) {
   body {
     font-size: 25px;
+  }
+  h2 {
+    font-size: 45px;
   }
 }
 /*# sourceMappingURL=style.css.map */
