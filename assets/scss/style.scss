@@ -177,3 +177,11 @@ body {
         font-size: 18px;
     }
 }
+
+//! MEDIAQUERIES MD SCREEN
+
+@media screen and (min-width: 1023px) {
+    body {
+        font-size: 25px;
+    }
+}

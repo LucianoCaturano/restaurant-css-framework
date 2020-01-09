@@ -174,4 +174,10 @@ body {
     font-size: 18px;
   }
 }
+
+@media screen and (min-width: 1023px) {
+  body {
+    font-size: 25px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
