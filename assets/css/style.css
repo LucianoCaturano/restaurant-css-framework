@@ -87,17 +87,14 @@ body {
 
 .colorface {
   color: #1d1dff;
-  font-size: 75px;
 }
 
 .colortwit {
   color: #32a3ff;
-  font-size: 75px;
 }
 
 .colorinsta {
   color: #ff49e1;
-  font-size: 75px;
 }
 
 /* The sidebar menu */
@@ -186,6 +183,15 @@ body {
   }
   h2 {
     font-size: 45px;
+  }
+  .colorface {
+    font-size: 75px;
+  }
+  .colortwit {
+    font-size: 75px;
+  }
+  .colorinsta {
+    font-size: 75px;
   }
 }
 /*# sourceMappingURL=style.css.map */
