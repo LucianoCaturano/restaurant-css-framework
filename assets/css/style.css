@@ -219,5 +219,12 @@ body, html {
   .colorinsta {
     font-size: 75px;
   }
+  .adressH:hover {
+    background-color: #fac204;
+    color: #0f0f0f;
+    font-weight: 800;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
 }
 /*# sourceMappingURL=style.css.map */
