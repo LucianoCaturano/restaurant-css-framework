@@ -11,6 +11,8 @@ The site must be responsive: at least for small screens (xs) and medium screens 
 
 Minimum 5 pages accessible by a navigation bar (navbar) present on all pages and leading to the different sections: Home, Map, Photos, Restaurants, Contact.
 
+W3C clean !
+
 ## When did you work on it?
 
 Duration : 3 days
