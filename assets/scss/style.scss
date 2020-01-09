@@ -9,13 +9,7 @@
     margin-bottom:20px;
    
 }
-.adressH:hover{
-    
-    background-color: #fac204; 
-    color:rgb(15, 15, 15);
-    font-weight: 800;
 
-}
 
 .carteM {
     border: 1px dotted #fac204;
@@ -229,5 +223,11 @@ body, html {
         color:rgb(15, 15, 15);
         font-weight: 800;
         transition: 1s;
+    }
+    h1 img{
+        width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
